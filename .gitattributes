@@ -1,0 +1,12 @@
+# Normalize line endings of text files.
+* text=auto
+
+*.cs      text diff=csharp
+*.asmdef  text
+*.json    text
+*.md      text
+*.meta    text
+*.uss     text
+
+*.png     binary
+*.jpg     binary

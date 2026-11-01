@@ -1,0 +1,35 @@
+{
+  "name": "com.uup.editor-tools",
+  "version": "0.1.0",
+  "displayName": "Editor Tools",
+  "description": "Lightweight, dependency-free Inspector and Hierarchy helpers: method buttons, conditional and read-only fields, titles, notes, GameObject comments that are stripped from builds, Readme assets and active-state toggles in the Hierarchy.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "keywords": [
+    "editor",
+    "inspector",
+    "attributes",
+    "button",
+    "showif",
+    "hierarchy",
+    "comment"
+  ],
+  "author": {
+    "name": "cvirat-dev",
+    "url": "https://github.com/cvirat-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cvirat-dev/unity-editor-tools.git"
+  },
+  "documentationUrl": "https://github.com/cvirat-dev/unity-editor-tools#readme",
+  "changelogUrl": "https://github.com/cvirat-dev/unity-editor-tools/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/cvirat-dev/unity-editor-tools/blob/main/LICENSE",
+  "samples": [
+    {
+      "displayName": "Attributes Showcase",
+      "description": "A component that demonstrates every attribute of the package. Add it to any GameObject.",
+      "path": "Samples~/Attributes Showcase"
+    }
+  ]
+}
