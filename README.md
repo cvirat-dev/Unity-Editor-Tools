@@ -1,6 +1,6 @@
 # Editor Tools for Unity
 
-Lightweight Inspector and Hierarchy helpers that remove everyday friction in the Unity Editor.
+Lightweight Inspector helpers that remove everyday friction in the Unity Editor.
 No dependencies, no base classes to inherit from: add the package and start using the attributes.
 
 | Feature | What it does |
@@ -12,7 +12,6 @@ No dependencies, no base classes to inherit from: add the package and start usin
 | [`[Note]`](#note) | Turns a string field into an editable note box |
 | [Comment component](#comment-component) | Documents GameObjects in the Inspector; stripped from builds |
 | [Readme asset](#readme-asset) | Formatted documentation assets for your project folders |
-| [Hierarchy active toggles](#hierarchy-active-toggles) | Activate or deactivate GameObjects directly from the Hierarchy |
 
 ## Requirements
 
@@ -172,16 +171,10 @@ with `#pragma warning disable CS0414` / `#pragma warning restore CS0414` to sile
 an icon, a title and sections with a heading, rich text and an optional link. Click **Edit** in the top-right corner of
 the Inspector to change its content. Drop one into a folder to explain its content to your team.
 
-## Hierarchy active toggles
-
-A checkbox is drawn on the right of each GameObject in the Hierarchy window to activate or deactivate it without
-selecting it. Toggling a selected GameObject applies to the whole selection, and changes support Undo.
-
 ## Preferences
 
 **Edit > Preferences > Editor Tools** (**Unity > Settings > Editor Tools** on macOS):
 
-- **Show active toggles**: enables the Hierarchy checkboxes.
 - **Log comments removed from builds**: lists stripped Comment components in the Console after a build.
 
 ## Development
