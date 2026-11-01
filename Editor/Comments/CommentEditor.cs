@@ -48,6 +48,10 @@ namespace UUP.EditorTools.Editor
             IsEditing = false;
             _content.Clear();
 
+            var editButton = new Button(ShowEditView) { text = "Edit" };
+            editButton.style.alignSelf = Align.FlexEnd;
+            editButton.style.width = 60f;
+
             var box = new HelpBox(DisplayText(), ToMessageType(_iconProperty))
             {
                 tooltip = "Double-click to edit."
@@ -70,6 +74,7 @@ namespace UUP.EditorTools.Editor
             box.TrackPropertyValue(_textProperty, _ => box.text = DisplayText());
             box.TrackPropertyValue(_iconProperty, property => box.messageType = ToMessageType(property));
 
+            _content.Add(editButton);
             _content.Add(box);
         }
 
